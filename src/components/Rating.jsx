@@ -6,10 +6,6 @@ import unionClassNames from '../utils/union-class-names';
 import config from '../config/rating';
 import {requestAnimationFrame, cancelAnimationFrame} from '../utils/animation-frame-management';
 
-// Enable React Touch Events
-React.initializeTouchEvents(true);
-
-
 /**
  * sanitize properties for the wrapping div.
  */
