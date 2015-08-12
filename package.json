@@ -47,8 +47,18 @@
       "underscore"
     ],
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "testFileExtensions": ["jsx", "js"],
-    "moduleFileExtensions": ["js", "json", "jsx"]
+    "testFileExtensions": [
+      "jsx",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx"
+    ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "exenv": "^1.2.0"
+  }
 }
